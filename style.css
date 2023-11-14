@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body { 
+    background-image: url(../UI-UX/tumblr_pn4ih2uW0R1uzwgsuo1_400.gif);
+    font-family: 'Comfortaa', serif;
+    color: #6702db;
+    /*background: rgb(221,195,219);
+    background: linear-gradient(90deg, rgba(221,195,219,1) 13%, rgba(230,224,240,1) 51%, rgba(186,195,226,1) 91%);*/
+}
+#cajah1{
+    padding: 30px;
+    text-align: center;
+}
+header {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    display: flex; /*para poner uno al aldo del otro*/
+    justify-content: space-between; /*espacio entre elementos*/
+    align-items: center; /*centrado vertical*/
+}
+main{
+    height: 710px;
+}
+main h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 6em;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav li {
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f6f2f7;    
+}
+
+main {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        grid-gap: 20px;
+    }
+    
+    .grid-item {
+        width: 500px; /* Ancho de la caja */
+        height: 200px; /* Altura de la caja */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .grid-item h2 {
+        font-size: 1.5em;
+        margin: 0 0 10px;
+    }
+    
+    .grid-item p {
+        margin: 0 0 10px;
+    }
+    
+
+article {
+    background-color: rgb(125, 38, 125);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin: auto;
+    justify-content: space-between;
+    color: #ecd9ee; 
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}

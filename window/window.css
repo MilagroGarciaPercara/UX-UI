@@ -1,0 +1,40 @@
+body {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+.window {
+  border-radius: 2rem;
+  border: 4px solid #080808;
+  overflow: hidden;
+}
+
+.window-topbar {
+  display: flex;
+  background: linear-gradient(90deg, rgba(153,172,244,1) 0%, rgba(184,198,252,1) 100%);
+  border-bottom: 4px solid #080808;
+}
+
+.window-title {
+  flex: 2;
+}
+
+.window-buttons {
+  display: flex;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+}
+
+.window-body {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.window-content {
+  min-height: 150px;
+  border: 4px solid #080808;
+  background-image: url(background.webp);
+  background-position: center;
+  background-size: cover;
+}
